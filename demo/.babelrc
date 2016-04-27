@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "es2015",
+    "stage-1",
+  ],
+ "plugins": [
+   "transform-object-rest-spread",    // 对象扩展运算
+   "transform-function-bind",         // 函数绑定
+   "syntax-async-functions",          // transpiler
+   "transform-regenerator",
+   "babel-plugin-transform-decorators-legacy"
+ ]
+}
